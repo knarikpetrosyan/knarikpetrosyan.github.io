@@ -28,6 +28,11 @@ section {
     padding: 5em 2em;
 }
 
+.my_img {
+    width: 25%; /* Adjust this percentage value to your desired size */
+    height: auto; /* Maintains the aspect ratio of the image */
+}
+
 .navbar {
     background: white;
     padding: 1em;
