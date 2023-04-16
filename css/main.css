@@ -6,7 +6,7 @@
 body {
   background: #F2F2F2;
   margin: 0;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 h2 {
@@ -32,23 +32,17 @@ section {
   height: auto; /* Maintains the aspect ratio of the image */
 }
 
-
 .navbar {
   background: white;
   padding: 1em;
 }
-
 .navbar nav {
   display: none;
 }
-
 .navbar .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   place-content: space-between;
 }
-
 .navbar .mobile-menu {
   cursor: pointer;
 }
@@ -72,27 +66,24 @@ nav {
   height: 100vh;
   padding: 1em;
 }
-
 nav ul.primary-nav {
   margin-top: 5em;
 }
-
 nav li a {
   color: white;
   text-decoration: none;
   display: block;
-  padding: .5em;
+  padding: 0.5em;
   font-size: 1.3em;
   text-align: right;
 }
-
 nav li a:hover {
   font-weight: bold;
 }
 
 .mobile-menu-exit {
   float: right;
-  margin: .5em;
+  margin: 0.5em;
   cursor: pointer;
 }
 
@@ -101,21 +92,13 @@ nav li a:hover {
     display: none;
   }
   .navbar .container {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 180px auto;
-        grid-template-columns: 180px auto;
-    -webkit-box-pack: unset;
-        -ms-flex-pack: unset;
-            justify-content: unset;
+    grid-template-columns: 180px auto;
+    justify-content: unset;
   }
   .navbar nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     background: none;
     position: unset;
     height: auto;
@@ -123,14 +106,12 @@ nav li a:hover {
     padding: 0;
   }
   .navbar nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .navbar nav a {
     color: black;
     font-size: 1em;
-    padding: .1em 1em;
+    padding: 0.1em 1em;
   }
   .navbar nav ul.primary-nav {
     margin: 0;
@@ -143,14 +124,13 @@ nav li a:hover {
     border: 3px solid var(--primary-color);
     font-weight: bold;
     border-radius: 5em;
-    margin-top: -.2em;
+    margin-top: -0.2em;
   }
   .navbar nav li.go-premium-cta a:hover {
     background: var(--primary-color);
     color: white;
   }
 }
-
 @media only screen and (min-width: 1080px) {
   .container {
     width: 1080px;
@@ -160,12 +140,8 @@ nav li a:hover {
     padding: 4em 4em;
   }
   .hero .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     text-align: center;
   }
   .hero .container .short-description {
@@ -186,8 +162,6 @@ nav li a:hover {
     border-radius: 10%;
   }
   .hero-cta {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .primary-cta {
@@ -215,8 +189,6 @@ nav li a:hover {
     bottom: -2em;
   }
   .testimonials-section ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .testimonials-section ul li {
@@ -226,8 +198,6 @@ nav li a:hover {
     position: relative;
   }
   .contact-section .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .contact-right {
@@ -241,10 +211,9 @@ nav li a:hover {
     height: 100%;
   }
 }
-
 @media only screen and (min-width: 1450px) {
   .features-section:before {
-    content: '';
+    content: "";
     position: absolute;
     width: 10%;
     height: 20em;
@@ -253,7 +222,7 @@ nav li a:hover {
     top: -4em;
   }
   .features-section:after {
-    content: '';
+    content: "";
     position: absolute;
     width: 200px;
     height: 20em;
@@ -262,51 +231,44 @@ nav li a:hover {
     top: 2em;
   }
 }
-
 .head {
   margin: auto;
   text-align: center;
   font-size: 3em;
   padding-top: 2em;
   background: #F2F2F2;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .links {
   text-align: center;
 }
-
 .links li a:hover {
   font-weight: bold;
 }
-
 .links .lk-li {
   list-style-type: none;
   background: var(--primery-color);
   padding: 1.5em 0.2em 0.2em 0.2em;
 }
-
 .links .gh-li {
   list-style-type: none;
   background: var(--primery-color);
   padding: 0.2em 0.2em 0.2em 0.2em;
 }
-
 .links .tw-li {
   list-style-type: none;
   background: var(--primery-color);
   padding: 0.2em 0.2em 0.2em 0.2em;
 }
-
 .links .em-li {
   list-style-type: none;
   background: var(--primery-color);
   padding: 0.2em 0.2em 0.2em 0.2em;
 }
-
 .links .linkedin {
   text-align: center;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   color: white;
   background-color: #007AF3;
   width: 16em;
@@ -316,10 +278,9 @@ nav li a:hover {
   border-radius: 5em;
   display: inline-block;
 }
-
 .links .github {
   text-align: center;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   color: white;
   background-color: #007AF3;
   width: 16em;
@@ -329,10 +290,9 @@ nav li a:hover {
   border-radius: 5em;
   display: inline-block;
 }
-
 .links .twitter {
   text-align: center;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   color: white;
   background-color: #007AF3;
   width: 16em;
@@ -342,10 +302,9 @@ nav li a:hover {
   border-radius: 5em;
   display: inline-block;
 }
-
 .links .email {
   text-align: center;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   color: white;
   background-color: #007AF3;
   width: 16em;
@@ -354,5 +313,4 @@ nav li a:hover {
   font-size: 1.2em;
   border-radius: 5em;
   display: inline-block;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
